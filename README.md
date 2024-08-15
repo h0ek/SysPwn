@@ -32,7 +32,7 @@ Simply copy the menu.exe file on the memory stick, create a `/apps/` directory i
    
 ### Download compiled
 
-Go to Release page and download latest build.
+Go to [Releases](https://github.com/h0ek/SysPwn/releases) page and download latest build.
 
 ### Compile yourself
 
@@ -47,3 +47,8 @@ Go to Release page and download latest build.
 3. Build exe
    ```bash
    pyinstaller --onefile --windowed --add-data "tools.ico:." --icon=tools.ico menu.py
+
+### ToDo
+
+- [ ] Run system PowerShell console in the `/apps/' folder
+- [ ] Add separate config file where user can exclude specific exe files
