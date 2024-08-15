@@ -48,7 +48,11 @@ Go to [Releases](https://github.com/h0ek/SysPwn/releases) page and download late
    ```bash
    pyinstaller --onefile --windowed --add-data "tools.ico:." --icon=tools.ico menu.py
 
-### ToDo
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/h0ek/SysPwn/blob/main/LICENSE) file for more details.
+
+## ToDo
 
 - [ ] Run system PowerShell console in the `/apps/` folder
 - [ ] Add separate config file where user can exclude specific exe files
