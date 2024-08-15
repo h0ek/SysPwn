@@ -8,10 +8,9 @@ Simply copy the menu.exe file on the memory stick, create a `/apps/` directory i
 
 ### Screenshots
 
-![App On USB Drive](screenshots/usb_drive.webp)
-![Main Window](screenshots/syspwn_main_window_menu.webp)
-![Search Filter](screenshots/search_filter.webp)
-![Example of app catalogs structure](screenshots/app_catalog_structure.webp)
+| ![App On USB Drive](screenshots/usb_drive.webp) | ![Main Window](screenshots/syspwn_main_window_menu.webp) |
+| ------------------------------------------------ | -------------------------------------------------------- |
+| ![Search Filter](screenshots/search_filter.webp) | ![Example of app catalogs structure](screenshots/app_catalog_structure.webp) |
 
 ### Features
 
