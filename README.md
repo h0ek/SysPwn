@@ -50,5 +50,5 @@ Go to [Releases](https://github.com/h0ek/SysPwn/releases) page and download late
 
 ### ToDo
 
-- [ ] Run system PowerShell console in the `/apps/' folder
+- [ ] Run system PowerShell console in the `/apps/` folder
 - [ ] Add separate config file where user can exclude specific exe files
