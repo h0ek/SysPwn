@@ -17,6 +17,8 @@ Simply copy the menu.exe file on the memory stick, create a `/apps/` directory i
 - **Dynamic Application Scanning:** Automatically scans the `apps` directory and displays available `.exe` applications in the user interface.
 - **Application Filtering:** Allows searching for applications based on their names and groups.
 - **Easy Application Launching:** Launch selected applications with a double-click.
+- **Local PowerShell shortcut:** Launch local PowerShell in `/apps/` folder.
+- **Exclude exe files from Dunamic Scanning:** `Using exclude.cfg` file you can exclude specific exe file.
 
 ### Requirements
 
@@ -50,7 +52,7 @@ Go to [Releases](https://github.com/h0ek/SysPwn/releases) page and download late
    
 3. Build exe
    ```bash
-   pyinstaller --onefile --windowed --add-data "tools.ico:." --icon=tools.ico menu.py
+   pyinstaller --onefile --windowed --add-data "tools.ico:." --icon=tools.ico --version-file=version.txt menu.py
 
 ## License
 
@@ -58,5 +60,5 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 
 ## ToDo
 
-- [ ] Run system PowerShell console in the `/apps/` folder
-- [ ] Add separate config file where user can exclude specific exe files
+- [x] ~~Run system PowerShell console in the `/apps/` folder~~
+- [x] ~~Add separate config file where user can exclude specific exe files~~
