@@ -18,7 +18,7 @@ Simply copy the menu.exe file on the memory stick, create a `/apps/` directory i
 - **Application Filtering:** Allows searching for applications based on their names and groups.
 - **Easy Application Launching:** Launch selected applications with a double-click.
 - **Local PowerShell shortcut:** Launch local PowerShell in `/apps/` folder.
-- **Exclude exe files from Dunamic Scanning:** `Using exclude.cfg` file you can exclude specific exe file.
+- **Specific exe file exclusion:** `Using exclude.cfg` file you can exclude specific exe file from Dynamic Application Scanning.
 
 ### Requirements
 
