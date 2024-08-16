@@ -1,0 +1,30 @@
+VSVersionInfo(
+    ffi=FixedFileInfo(
+        filevers=(0, 0, 2, 0),
+        prodvers=(0, 0, 2, 0),
+        mask=0x3f,
+        flags=0x0,
+        OS=0x40004,
+        fileType=0x1,
+        subtype=0x0,
+        date=(0, 0)
+    ),
+    kids=[
+        StringFileInfo(
+            [
+                StringTable(
+                    u'040904b0',
+                    [StringStruct(u'CompanyName', u'0ut3r Space'),
+                     StringStruct(u'FileDescription', u'SysPwn Application'),
+                     StringStruct(u'FileVersion', u'0.0.1'),
+                     StringStruct(u'InternalName', u'SysPwn'),
+                     StringStruct(u'LegalCopyright', u'(c) 2024 0ut3r Space. All rights reserved.'),
+                     StringStruct(u'OriginalFilename', u'SysPwn.exe'),
+                     StringStruct(u'ProductName', u'SysPwn'),
+                     StringStruct(u'ProductVersion', u'0.0.1')]
+                )
+            ]
+        ),
+        VarFileInfo([VarStruct(u'Translation', [1033, 1200])])
+    ]
+)
