@@ -6,6 +6,8 @@ I created this application launcher for my needs. It allows me to run applicatio
 
 Simply copy the menu.exe file on the memory stick, create a `/apps/` directory in it, create folders which will be regarded as categories e.g. network_tools, system_tools, password_recovery and in them create separate folders for each application. For example, the `Autoruns.exe` application from Sysinternals will be in `/apps/system/autoruns/Autoruns.exe`. After launching menu.exe, the program will read the structure of the /apps/ directory and add entries in the menu, the system directory will be the name of the category (use only underscores, no spaces or other hyphens) and the exe file name will be the name of the app in the menu.
 
+See also the [short article](https://0ut3r.space/2024/08/16/syspwn-app-launcher/) about why I build this.
+
 ### Screenshots
 
 | ![App On USB Drive](screenshots/usb_drive.webp) | ![Main Window](screenshots/syspwn_main_window_menu.webp) |
