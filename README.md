@@ -28,7 +28,7 @@ See also the [short article](https://0ut3r.space/2024/08/16/syspwn-app-launcher/
 - Tkinter (included with most Python distributions)
 - PyInstaller (optional, if you want to generate a `.exe` file)
 
-### Installation
+### Run as Python script
 
 1. Clone the repository:
    ```bash
@@ -38,7 +38,7 @@ See also the [short article](https://0ut3r.space/2024/08/16/syspwn-app-launcher/
    ```bash
    python menu.py
    
-### Download compiled
+### Download compiled version
 
 Go to [Releases](https://github.com/h0ek/SysPwn/releases) page and download latest build.
 
